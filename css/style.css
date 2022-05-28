@@ -2,10 +2,12 @@
   box-sizing: border-box;
 }
 
+html {    
+  background:url('background.png') no-repeat center fixed;     
+  background-size: cover;
+}
+
 body {
-  background-image: url(../images/background.png);
-  background-repeat:no-repeat;
-  background-size: 1500px 900px;
   height: 100vh;
   min-height: 100vh;
   min-width: 100vh;
