@@ -42,14 +42,14 @@ h1 {
 
 h3 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 p{
   margin-top: 10px;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
 }
 
@@ -106,7 +106,7 @@ p{
   margin-left: 1em;
   color: black;
   vertical-align: middle;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 
@@ -117,7 +117,7 @@ p{
   margin-left: 1em;
   color: black;
   vertical-align: middle;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .topnav a:hover, footer a:hover {
@@ -200,6 +200,21 @@ li {
   width: 80%;
   font-size: 20px;
 }
+.box.arrow-bottom:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: 25px solid rgba(255,80,80, 0.95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  bottom: -15px;
+  border-top: 15px solid rgba(255,80,80, 0.95);
+  border-bottom: none;
+}
 
 
 iframe {
@@ -256,16 +271,6 @@ iframe {
 button:disabled {
   background-color: grey;
   cursor: not-allowed;
-}
-
-.countries {
-  list-style-type: disc;
-}
-
-.country {
-  display: list-item;
-  font-size: 18px;
-  font-weight: 200;
 }
 
 form {
@@ -357,7 +362,8 @@ textarea, input[type="email" i] {
   color: black;
   margin-right: 20px;
   margin-left: auto;
-  font-size: 10px;
+  font-size: 13px;
+  font-weight: 200;
 }
 
 
