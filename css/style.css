@@ -61,8 +61,13 @@ p{
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  margin: auto;
-  margin-top: 100px;
+}
+
+.download {
+  padding-left: 0!important;
+  border-radius: 10px;
+  width: 40%!important;
+  text-decoration: none;
 }
 
 .profile-image {
@@ -188,7 +193,7 @@ li {
 }
 
 .box {
-
+  margin-top: 50px;
   height: auto;
   background-color: rgba(255,80,80, 0.95);
   color: black;
@@ -197,7 +202,6 @@ li {
   position: relative;
   margin: 10px;
   box-sizing: content-box;
-  width: 80%;
   font-size: 20px;
 }
 .box.arrow-bottom:after {
